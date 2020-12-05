@@ -1,65 +1,232 @@
-            body {
-            font-size: 15px;
-        }
-        
-        @media (max-width: 768px) {
-            body {
-                font-size: 2rem;
-            }
-            @media (max-width: 992px) {
-                body {
-                    font-size: 0.9rem;
-                }
-            }
-            @media (min-width: 1200px) {
-                body {
-                    font-size: 25px;
-                }
-            }
-            .background {
-                background-image: url(./img/Rectangle\ 1.svg);
-                background-size: 100%;
-                background-repeat: no-repeat;
-            }
-            .navbar {
-                margin-top: 12px;
-                margin-left: 2%;
-                display: inline-block;
-                width: 30%;
-                height: 88px;
-            }
-            .navbar img {
-                margin-right: 1%;
-                float: left;
-            }
-            .logoTitle {
-                color: white;
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                font-weight: 600;
-                font-size: 1rem;
-            }
-            .logoDescription {
-                color: white;
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                font-weight: 100;
-                font-size: 0.9rem;
-                line-height: 10px;
-            }
-            .mainTitle {
-                margin-top: 30px;
-                line-height: 53px;
-                color: white;
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                font-weight: 700;
-                font-size: 3rem;
-            }
-            .mainDescription {
-                line-height: 35px;
-                color: white;
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                font-weight: 100;
-                font-size: 2rem;
-            }
-            .downloadBtns {
-                margin-top: 81px;
-            }
+/*
+
+@media (min-width: 768px) and (max-width: 991px) {
+    html {
+        font-size: 4px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    html {
+        font-size: 5px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 7px;
+    }
+}  
+
+*/
+
+.background {
+    background-image: url(./img/backgroundTop.svg), url(./img/Wall.png), url(./img/backgroundBottom.svg);
+    background-repeat: no-repeat;
+    background-position: top, bottom, bottom;
+    background-size: 105%;
+}
+
+.navbar {
+    margin-top: 12px;
+    margin-left: 2%;
+    display: inline-block;
+    width: 30%;
+    height: 88px;
+}
+
+.navbar img {
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 5%;
+    float: left;
+}
+
+.logoTitle {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.logoDescription {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 12px;
+}
+
+.header {
+    margin-left: 90px;
+}
+
+.mainTitle {
+    margin-top: 60px;
+    line-height: 60px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.mainDescription {
+    line-height: 33px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.imgPhone {
+    margin-left: 20px;
+}
+
+.imgPhone img {
+    border-radius: 15px;
+    box-shadow: 5px 0px 50px 0px rgba(84, 77, 77, 0.15);
+    -webkit-box-shadow: 5px 0px 50px 0px rgba(84, 77, 77, 0.15);
+    -moz-box-shadow: 5px 0px 50px 0px rgba(84, 77, 77, 0.15);
+}
+
+.downloadBtns {
+    margin-top: 51px;
+}
+
+.middleTitle {
+    margin-top: 276px;
+    margin-bottom: 100px;
+    line-height: 73px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.TitleOne {
+    margin-top: 210px;
+    line-height: 120px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.DescriptionOne {
+    color: black;
+    line-height: 43px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+
+.spotPhone1 img {
+    position: relative;
+    margin-left: 150px;
+    margin-top: -575px;
+    border-radius: 15px;
+    box-shadow: 5px 0px 50px 0px rgba(84, 77, 77, 0.15);
+    -webkit-box-shadow: 5px 0px 50px 0px rgba(84, 77, 77, 0.15);
+    -moz-box-shadow: 5px 0px 50px 0px rgba(84, 77, 77, 0.15);
+}
+
+.TitleTwo {
+    margin-top: 160px;
+    line-height: 120px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.DescriptionTwo {
+    line-height: 43px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.spotPhone2 img {
+    position: relative;
+    margin-left: 150px;
+    margin-top: -635px;
+    border-radius: 15px;
+    box-shadow: 5px 0px 50px 0px rgba(84, 77, 77, 0.15);
+    -webkit-box-shadow: 5px 0px 50px 0px rgba(84, 77, 77, 0.15);
+    -moz-box-shadow: 5px 0px 50px 0px rgba(84, 77, 77, 0.15);
+}
+
+.TitleThree {
+    margin-top: 115px;
+    line-height: 120px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.DescriptionThree {
+    line-height: 53px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.spotPhone3 img {
+    position: relative;
+    margin-left: 110px;
+    margin-top: -605px;
+    border-radius: 15px;
+    box-shadow: 5px 0px 50px 0px rgba(84, 77, 77, 0.15);
+    -webkit-box-shadow: 5px 0px 50px 0px rgba(84, 77, 77, 0.15);
+    -moz-box-shadow: 5px 0px 50px 0px rgba(84, 77, 77, 0.15);
+}
+
+.midlleDescription {
+    line-height: 53px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.endTitle {
+    margin-top: 290px;
+    margin-left: 100px;
+    line-height: 100px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.footer {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 8%;
+}
+
+.footerTitle {
+    line-height: 70px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.footerDescription {
+    line-height: 35px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.footerDescription sup {
+    font-size: 15px;
+    vertical-align: 10px;
+}
